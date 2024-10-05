@@ -1,0 +1,354 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+#navbar{
+    padding-top: 20px;
+    height: 40px;
+    display: flex;
+    background-color: black;
+   
+  
+    
+}
+.neww{
+    background: rgb(79, 156, 79);
+    border: none;
+    font-size: large;
+    border-radius: 1px solid black;
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 750px;
+    margin-top: 0px;
+    
+}
+
+#logo img{
+    height: 50px;
+    width: auto;
+}
+.one{
+    background-color: black;
+}
+.two{
+    background-color: black;
+    padding-left: 400px;
+    margin-right: 20px;
+    display: inline;
+    
+}
+a{
+    
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+    padding-left: 60px;
+    display: inline ;
+    background-color: black;
+    font-size: large;
+    
+}
+.middle{
+    display: flex;
+    padding-top: 20px;
+}
+.righttt{
+    padding-left: 200px;
+    padding-top: 30px;
+    
+    
+    
+}
+.lefft{
+     padding-left: 40px;
+     padding-top: 70px;
+}
+.lefft h1{
+    font-size: 70px;
+}
+.lefft h3{
+    font-size: 20px;
+}
+
+.btn{
+    display: flex;
+    
+    
+}
+
+.btn .le a{
+    display: inline-block;
+    background: #ff523b;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    }
+    .btn .le a:hover{
+        background: brown;
+    }
+.btn .ri a{
+       
+    display: inline-block;
+    background: #ff523b;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0 0 20px;
+    border-radius: 30px;
+        }
+.btn .ri a:hover{
+            background: brown;
+        }
+
+
+.hed{
+    padding-top: 50px;
+    text-align: center;
+    
+}
+
+    .deli{
+        padding-top: 20px;
+        
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .card-1{
+        height: 320px;
+        width: 250px;
+        border: 1px solid white;
+        border-radius: 20px;
+        background-color: white;
+        text-align: center;
+        transition: 0.5s;
+       
+    }
+    .card-1:hover{
+        transform: translateY(-10px);
+        box-shadow: 2px 2px 20px rgb(161, 160, 160);
+    }
+
+    .card-1 h2 {
+        
+        background-color: white;
+    }
+    .card-1 p{
+        background-color: white;
+    }
+    .card-1 a{
+     display: inline-block;
+    background: #ff523b;
+    color: white;
+    padding: 8px 30px;
+    margin: 10px 0 ;
+    border-radius: 30px;
+
+    }
+    .card-1 a:hover{
+        background: brown;
+    }
+    
+    .hed a{
+        display: inline-block;
+        background: rgb(2, 156, 2);
+        color: white;
+        padding: 8px 40px;
+        margin: 10px 0 15px 0 ;
+        border-radius: 30px;
+        border: none;
+    }
+    .hed a:hover{
+        background: green;
+    }
+    
+    
+    .card-1 .fa{
+        background-color: white;
+        color: #ff523b;
+    }
+     .if{
+        display: flex;
+        justify-content: space-evenly;
+     }
+    .books{
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+    .books button{
+        display: inline-block;
+        background: rgb(2, 156, 2);
+        color: white;
+        padding: 16px 6px 16px 6px;
+        margin: 30px 0 30px 30px ;
+        border-radius: 30px;
+        border: none;
+        width: 440px;
+        margin-right: 60px;
+    }
+    .books button:hover{
+        background-color: green;
+    }
+    .books input{
+        margin-top: 20px;
+        width: 400px;
+        background-color: rgb(245, 200, 145);
+        font-size: larger;
+    }
+    
+    .books textarea{
+        padding: 20px 50px 50px 10px;
+        border: 1px solid black;
+        border-radius: 40px;
+        margin-top: 20px;
+        margin-right: 15px;
+        margin-left: 50px;
+        width: 460px;
+        background-color: rgb(245, 200, 145);
+        font-size: larger;
+    }
+    .footer{
+        height: 400px;
+        width: 100%;
+        background-color: rgb(219, 151, 23);
+        margin-top: 20px;
+    }
+    .foot{
+        display: flex;
+        
+        background-color:rgb(219, 151, 23) ;
+        padding-top: 40px;
+        
+    }
+    .one1{
+        background-color: rgb(219, 151, 23) ;
+    }
+    .one1 a{
+        background-color: rgb(219, 151, 23) ;
+        display: block;
+        color: black;
+        padding-top: 20px;
+        width: 170px;
+        
+
+    }
+    .two2{
+        background-color: rgb(219, 151, 23) ;
+    }
+    .two2 a{
+        background-color: rgb(219, 151, 23) ;
+        display: block;
+        color: black;
+        padding-top: 20px;
+        margin-left: 90px;
+        width: 170px;
+    }
+    .three3{
+        background-color: rgb(219, 151, 23) ;
+        margin-left: 650px;
+    }
+    .three3 button{
+        display: inline-block;
+        background: rgb(2, 156, 2);
+        color: white;
+        padding: 8px 20px;
+        margin: 10px 0 15px 45px ;
+        border-radius: 30px;
+        border: none;
+    }
+    .three3 button:hover{
+        background-color: green;
+    }
+    .three3 a{
+        background-color: rgb(219, 151, 23);
+        
+    }
+    .three3 img{
+        height: 50px;
+        width: 50px;
+        border: 2px solid white;
+        border-radius: 50%;        
+        margin-left: 10px;
+
+    }
+    
+    .container {
+        width: 50%;
+        margin: auto;
+        overflow: hidden;
+        padding: 20px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px 0px #ccc;
+        margin-top: 70px;
+
+    }
+    
+    h1, h2 {
+        text-align: center;
+        color: #333;
+    }
+    
+    .form-section, .display-section {
+        margin-top: 20px;
+    }
+    
+    label {
+        display: block;
+        margin: 10px 0 5px 0;
+    }
+    
+    input[type="text"], input[type="date"], select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+    }
+    
+    button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #218838;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    li {
+        background: #f4f4f4;
+        margin: 10px 0;
+        padding: 10px;
+        border-left: 5px solid #28a745;
+    }
+    .delete{
+        width: 100px;
+        
+    }
+    
+
+
+   
+
+
+    
+    
+
+
