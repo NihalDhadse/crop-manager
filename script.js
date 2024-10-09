@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const cropForm = document.getElementById("crop-form");
     const cropList = document.getElementById("crop-list");
 
-    // Handle form submission
+    
     cropForm.addEventListener("submit", function(event) {
         event.preventDefault();
 
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     
 
-    // Example notification logic (can be extended)
+    
     function notifyTasks() {
         const today = new Date().toISOString().split("T")[0];
         const tasks = [];
@@ -58,14 +58,14 @@ document.addEventListener("DOMContentLoaded", function() {
             if (stage === "Planting") {
                 tasks.push(`Reminder: Water the newly planted ${cropData[0]}.`);
             }
-            // Add more notifications based on crop stage and other conditions
+            
         });
         if (tasks.length > 0) {
             alert(tasks.join("\n"));
         }
     }
 
-    // Notify tasks daily (Example: On page load)
+    
     notifyTasks();
 });
 
